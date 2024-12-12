@@ -96,7 +96,7 @@ export default function App() {
   </Button>
           </div>
           
- 
+ {/* 
   <div className="flex flex-col sm:flex-row justify-center items-center sm:items-start gap-6 text-lg text-neutral-500 text-center sm:text-left">
   <div className="flex items-center gap-2">
     <span className="w-1.5 h-1.5 bg-orange-500 rounded-full" />
@@ -107,7 +107,7 @@ export default function App() {
     Total earned: {loadingTotalUsers ? 'Loading...' : ((Number(totalUsers) || 0) * 0.05).toFixed(2)} BNB
   </div>
 </div>
- 
+  */}
 
         </div>
       </section>
@@ -226,7 +226,7 @@ The more you refer, the more you grow!
     variant="secondary"
     size="icon"
     onClick={() =>
-      window.open("https://t.me/referral_games", "_blank", "noopener,noreferrer")
+      window.open("https://t.me/referral_game_ro", "_blank", "noopener,noreferrer")
     }
   >
     <Send className="hover:cursor-pointer hover:text-primary w-4 h-4" />
