@@ -113,7 +113,7 @@ export default function App() {
       </section>
 
 {/* How it works Section */}
-<section className="py-20 sm:py-10 relative">
+<section className="py-10 relative">
   <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(255,87,34,0.08),transparent_70%)]" />
   
   <div className="max-w-6xl mx-auto px-4 relative">
@@ -139,7 +139,7 @@ export default function App() {
 </section>
 
       {/* Dashboard */}
-      <section id="dashboard" className="py-20 sm:py-10 relative">
+      <section id="dashboard" className="py-20 relative">
       <Dashboard />
       </section>
 
@@ -171,7 +171,7 @@ export default function App() {
       </section>
 
       
-     <section className="py-20 sm:py-10 relative">
+     <section className="py-20 relative">
       <Faq />
       </section>
       
