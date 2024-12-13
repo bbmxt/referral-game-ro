@@ -226,7 +226,7 @@ The more you refer, the more you grow!
     variant="secondary"
     size="icon"
     onClick={() =>
-      window.open("https://t.me/referral_game_ro", "_blank", "noopener,noreferrer")
+      window.open("https://t.me/referral_games", "_blank", "noopener,noreferrer")
     }
   >
     <Send className="hover:cursor-pointer hover:text-primary w-4 h-4" />
